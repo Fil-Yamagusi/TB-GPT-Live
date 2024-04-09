@@ -1,7 +1,6 @@
-.idea/
-/config.py
 /fil_vm_key
 /.env
+.idea/
 
 /abcd-prime.py
 /image.jpg
