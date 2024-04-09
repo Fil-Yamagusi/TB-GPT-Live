@@ -1,8 +1,10 @@
 .idea/
 /config.py
 /fil_vm_key
+/.env
 
 /abcd-prime.py
 /image.jpg
 /kandinskiy.py
 /image-0.jpg
+
