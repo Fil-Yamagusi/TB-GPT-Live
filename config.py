@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Настройки для телеграм-бота (не авторизация!)
 tg = {}
 tg['token'] = os.getenv('TG_TOKEN')
 tg['eng_name'] = 'FC Fil LiveCoding YaGPT'
@@ -11,6 +12,11 @@ tg['addr'] = 'https://t.me/fc_fil_lc_yagpt_bot'
 tg['description'] = ('Повторение задания третьего модуля. '
                      'Подсчёт токенов, генерация сценариев')
 
+# Настройки для БД (не авторизация!)
+DB = {}
+DB['db_file'] = "live_db.db"
+
+# Настройки для общения с YaGPT (не авторизация!)
 YaGPT = {}
 YaGPT['GPT_MODEL'] = 'yandexgpt-lite'
 YaGPT['FOLDER_ID'] = os.getenv('FOLDER_ID')

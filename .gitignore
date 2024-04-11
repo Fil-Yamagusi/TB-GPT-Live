@@ -1,9 +1,9 @@
 /fil_vm_key
 /.env
 .idea/
+/live_db.db
 
-/abcd-prime.py
-/image.jpg
+/test*.py
+/image*.jpg
 /kandinskiy.py
-/image-0.jpg
 
